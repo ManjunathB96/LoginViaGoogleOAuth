@@ -31,6 +31,7 @@ router.get(
   }
 );
 
+
 // Define a route for the login page
 router.get("/login",(req, res) => {
   res.send(req.user);
